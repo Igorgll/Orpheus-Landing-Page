@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
+nav {
+    height: 96px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#navLink {
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 600;
+    font-size: 16px;
+    color: #0D0D0D;
+}

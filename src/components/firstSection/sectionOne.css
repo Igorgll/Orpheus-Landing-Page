@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Yet the story of Orpheus */
+#title {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#orpheus {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-size: 74px;
+    letter-spacing: 30px;
+    font-weight: 900;
+    line-height: 88.8px;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#orpheusText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 50px;
+
+    text-align: justify;
+    color: #171717;
+
+    width: 552px;
+    height: 150px;
+}
+
+#goldBtn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+
+    width: 170px;
+    height: 50px;
+
+    padding: 0px 15px;
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    border-radius: 5px;
+}
+
+#whiteBtn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+
+    width: 170px;
+    height: 50px;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    border-image: linear-gradient(45deg, #FFFFFF, #EFB62B, #FFFFFF) 1;
+
+    border-right: none;
+    border-bottom: none; 
+}
+
+/* Statue Image */

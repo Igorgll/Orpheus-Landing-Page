@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './navbar.css';
+import '../navbar/navbar.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import lua from '../assets/img/lua.svg';
-import typo from '../assets/img/Typo.png';
-import logo from '../assets/img/logo.svg';
+import lua from '../../assets/img/lua.svg';
+import typo from '../../assets/img/Typo.png';
+import logo from '../../assets/img/logo.svg';
 
 export default class menu extends Component {
     render () {

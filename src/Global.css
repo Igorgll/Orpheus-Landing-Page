@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
-h {
-    font-family: Cinzel, serif;
+body {
+    overflow-x: hidden;
 }
 
 #light {
