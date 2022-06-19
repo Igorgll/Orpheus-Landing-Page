@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import './sectionOne.css';
-import Statue from '../../assets/img/image 5.png';
+import Statue from '../../assets/img/Statue.png';
 import Arrow from '../../assets/img/arrow.svg';
-
 
 export default class sectionOne extends Component {
     render () {
@@ -17,7 +16,7 @@ export default class sectionOne extends Component {
                     <button className="border-0 shadow-sm text-white" id="goldBtn">FREE STUFF</button>
                 </div>
                 <div className="col-md-6">
-                    <img src={Statue} className="img-fluid mb-5" alt="Statue pic" />
+                    <img src={Statue} className="img-fluid mb-5 ps-5" alt="Statue pic" />
                 </div>
             </Container>
         );

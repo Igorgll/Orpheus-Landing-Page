@@ -2,13 +2,14 @@
 
 nav {
     height: 96px;
-    border-bottom: 1px solid #FFFFFF;
+    background: rgb(244,245,245);
+    background: linear-gradient(90deg, rgba(244,245,245,1) 69%, rgba(222,236,242,1) 100%);
 }
 
 #navLink {
-    font-family: 'Cinzel', serif;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-weight: 600;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     color: #0D0D0D;
 }
