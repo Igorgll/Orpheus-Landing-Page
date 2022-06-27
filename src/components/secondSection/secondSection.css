@@ -1,4 +1,80 @@
-#image {
+.container {
+    position: relative;
+}
+
+.nftH1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#vl {
+    border-left: 1.8px solid #D99A01;
+    height: 43px;
+}
+
+.nftH2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: rgba(13, 13, 13, 0.8);
+}
+
+.caption {
+    position: absolute;
     width: 451px;
+    height: 63px;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.81) 19.79%, rgba(255, 255, 255, 0) 97.4%);
+    opacity: 0.9;
+}
+
+.captionP {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0.035em;
+    
+    color: #0D0D0D;
+}
+
+.viewBtn {
     height: 339px;
+}
+
+#whiteBtn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    border-image: linear-gradient(45deg, #FFFFFF, #EFB62B, #FFFFFF) 1;
+
+    border-right: none;
+    border-bottom: none; 
 }

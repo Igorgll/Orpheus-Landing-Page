@@ -7,7 +7,7 @@ import Arrow from '../../assets/img/arrow.svg';
 export default class sectionOne extends Component {
     render () {
         return (
-            <Container className="container-fluid vh-100 d-flex align-items-center">
+            <Container className="container container-fluid vh-100 d-flex align-items-center">
                 <div className="col-md-6">
                     <h1 id="title">Yet the story of</h1>
                     <h2 id="orpheus">Orpheus</h2>

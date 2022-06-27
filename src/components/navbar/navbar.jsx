@@ -11,7 +11,7 @@ export default class menu extends Component {
     render () {
         return (
             <Navbar collapseOnSelect expand="lg" id="light">
-            <Container>
+            <Container className="container">
                 <div className="d-flex align-items-center">
                     <img className="me-3 logo" src={logo} alt="typo" />
                     <img src={typo} alt="typo" />

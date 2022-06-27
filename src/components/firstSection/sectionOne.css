@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+.container {
+    max-width: 90%;
+}
+
 body {
     background: rgb(244,245,245);
     background: linear-gradient(49deg, rgba(244,245,245,0.9167017148656338) 69%, rgba(222,236,242,1) 100%);
