@@ -1,0 +1,71 @@
+#vl {
+    border-left: 1.8px solid #D99A01;
+    height: 43px;
+}
+
+#rowThirdSection {
+    background: rgb(208,199,194);
+    background: linear-gradient(90deg, rgba(208,199,194,1) 0%, rgba(224,224,224,1) 100%);
+}
+
+#girlStatue {
+    filter: brightness(85%);
+    opacity: 0.6;
+    mix-blend-mode: overlay;
+}
+
+#row_heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#row_subHeading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+
+    text-align: center;
+    letter-spacing: 0.285em;
+    text-transform: uppercase;
+
+    color: #080A0D;
+}
+
+#span200 {
+    font-weight: 500;
+}
+
+#gold_button {
+    width: 165px;
+    height: 50px;
+    left: 271px;
+    top: 197px;
+
+    border: none;
+
+    background: linear-gradient(295.38deg, #D99A01 4.89%, #9F6605 49.04%, #EFB62B 95.06%);
+    border-radius: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
