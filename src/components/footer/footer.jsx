@@ -17,25 +17,25 @@ export default class footer extends Component {
                         <h2 className="text-center footer_subheading">Get in touch for opportunities or just to say hi! 👋</h2>
                     
                     <div className="social_medias d-flex justify-content-center mt-4">
-                        <a href="#">
+                        <button className="border-0 bg_social_media">
                             <img src={ linkedin } alt="linkedin icon" className="me-4" />
-                        </a>
+                        </button>
                         
-                        <a href="#">
+                        <button className="border-0 bg_social_media">
                             <img src={ instagram } alt="linkedin icon" />
-                        </a>
+                        </button>
                         
-                        <a href="#">
+                        <button className="border-0 bg_social_media">
                             <img src={ ball } alt="linkedin icon" className="me-4 ms-4"/>
-                        </a>
+                        </button>
                         
-                        <a href="#">
+                        <button className="border-0 bg_social_media">
                             <img src={ M } alt="linkedin icon" />
-                        </a>
+                        </button>
                         
-                        <a href="#">
+                        <button className="border-0 bg_social_media">
                             <img src={ email } alt="linkedin icon" className="ms-4"/>
-                        </a>
+                        </button>
                     </div>
                     
                     </div>
