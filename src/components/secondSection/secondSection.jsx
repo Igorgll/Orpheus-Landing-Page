@@ -20,8 +20,8 @@ export default class secondSection extends Component {
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2,
-        slidesToSlide: 2,
+        items: 1,
+        slidesToSlide: 1,
       },
       mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -50,7 +50,6 @@ export default class secondSection extends Component {
           keyBoardControl={true}
           transitionDuration={500}
           containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
           deviceType={this.props.deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
