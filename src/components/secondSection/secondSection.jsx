@@ -56,8 +56,8 @@ export default class secondSection extends Component {
         >
           <div className="d-flex justify-content-center">
             <img src={Image} alt="" />
-            <div class="text-dark bg-dark d-flex align-items-center justify-content-start caption">
-              <p className="text-start ms-3 mt-3 captionP">
+            <div class="text-dark bg-dark d-flex align-items-center justify-content-start" id="caption">
+              <p className="text-start ms-3 mt-3" id="captionP">
                 Relics Of A Mortal Past 1 - NFT
               </p>
             </div>
@@ -65,8 +65,8 @@ export default class secondSection extends Component {
 
           <div className="d-flex justify-content-center">
             <img src={Image1} alt="" />
-            <div class="text-dark bg-dark d-flex align-items-center justify-content-start caption">
-              <p className="text-start ms-3 mt-3 captionP">
+            <div class="text-dark bg-dark d-flex align-items-center justify-content-start" id="caption">
+              <p className="text-start ms-3 mt-3" id="captionP">
                 Relics Of A Mortal Past 1 - NFT
               </p>
             </div>
@@ -74,8 +74,8 @@ export default class secondSection extends Component {
 
           <div className="d-flex justify-content-center">
             <img src={Image2} alt="" />
-            <div class="text-dark bg-dark d-flex align-items-center justify-content-start caption">
-              <p className="text-start ms-3 mt-3 captionP">
+            <div class="text-dark bg-dark d-flex align-items-center justify-content-start" id="caption">
+              <p className="text-start ms-3 mt-3" id="captionP">
                 Relics Of A Mortal Past 1 - NFT
               </p>
             </div>
@@ -83,8 +83,8 @@ export default class secondSection extends Component {
 
           <div className="d-flex justify-content-center">
             <img src={Image3} alt="" />
-            <div class="text-dark bg-dark d-flex align-items-center justify-content-start caption">
-              <p className="text-start ms-3 mt-3 captionP">
+            <div class="text-dark bg-dark d-flex align-items-center justify-content-start" id="caption">
+              <p className="text-start ms-3 mt-3" id="captionP">
                 Relics Of A Mortal Past 1 - NFT
               </p>
             </div>
@@ -92,8 +92,8 @@ export default class secondSection extends Component {
 
           <div className="d-flex justify-content-center">
             <img src={Image4} alt="" />
-            <div class="text-dark bg-dark d-flex align-items-center justify-content-start caption">
-              <p className="text-start ms-3 mt-3 captionP">
+            <div class="text-dark bg-dark d-flex align-items-center justify-content-start" id="caption">
+              <p className="text-start ms-3 mt-3" id="captionP">
                 Relics Of A Mortal Past 1 - NFT
               </p>
             </div>

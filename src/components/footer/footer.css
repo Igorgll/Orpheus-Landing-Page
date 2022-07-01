@@ -2,11 +2,11 @@
     height: 427px;
 }
 
-.bg_social_media {
-    background: #F5F6F6;
+#bg_social_media {
+    background: #FFFFFF;
 }
 
-.footer_heading {
+#footer_heading {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -21,7 +21,7 @@
     background-clip: text;
 }
 
-.footer_subheading {
+#footer_subheading {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;

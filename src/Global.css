@@ -4,6 +4,138 @@ body {
     overflow-x: hidden;
 }
 
-#light {
-    background-color: #FFFFFF;
+/* DARK THEME */
+
+.dark-theme {
+    transition: ease-in 0.5s;
+    background: #050607;
+}
+
+.dark-theme #typo_div {
+    transition: ease-in 0.5s;
+    background: url("./assets//img/LogoDarkMode.png") no-repeat;
+}
+
+.dark-theme #logo_icon {
+    visibility: hidden;
+}
+
+.dark-theme #navLink {
+    transition: ease-in 0.5s;
+    color: #FFFFFF;
+}
+
+.dark-theme #statue_pic_div {
+    background: url("./assets/img/Statue_Black.png") no-repeat;
+    margin-top: 6rem;
+    width: 60%;
+}
+
+.dark-theme #statue_pic {
+    visibility: hidden;
+}
+
+.dark-theme #orpheusText {
+    transition: ease-in 0.5s;
+    color: #EFF3FB;
+}
+
+.dark-theme #whiteBtn {
+    transition: ease-in 0.5s;
+    border-image: linear-gradient(45deg, #050607, #EFB62B, #050607) 1;
+}
+
+.dark-theme #goldBtn {
+    transition: ease-in 0.5s;
+    color: #0A0D11;
+}
+
+.dark-theme #caption {
+    transition: ease-in 0.5s;
+    background: linear-gradient(90deg, rgba(9, 11, 14, 0.81) 19.79%, rgba(9, 11, 14, 0) 97.4%);
+}
+
+.dark-theme #rowThirdSection {
+    background: rgb(7,9,12);
+    background: linear-gradient(260deg, rgba(7,9,12,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.dark-theme #girlStatue {
+    visibility: hidden;
+}
+
+.dark-theme #girlStatueBlack {
+    background: #07090C;
+    mix-blend-mode: screen;
+    background: url("./assets/img/girlStatueBlack.png");
+}
+
+.dark-theme #row_subHeading {
+    color: #CCCCCC;
+}
+
+.dark-theme #view_more {
+    color: #FFFFFF;
+}
+
+.dark-theme #gold_button {
+    color: #0A0D11;
+}
+
+/* .dark-theme #arrow_down {
+    visibility: hidden;
+}
+
+.dark-theme #arrow_icon {
+    background: url("./assets/img/ArrowDownBlack.svg") no-repeat;
+} */
+
+.dark-theme #rowThirdSectionAvatars {
+    background: linear-gradient(274.7deg, #0D1626 -0.81%, #07090C 98.64%);
+}
+
+.dark-theme #row_subHeadingAvatars {
+    color: #CCCCCC;
+}
+
+.dark-theme #footer_subheading {
+    color: #FFFFFF;
+}
+
+.dark-theme #bg_social_media {
+    background: #050607;
+}
+
+.dark-theme #captionP {
+    color: #FFFFFF;
+}
+
+/* LIGHT THEME */
+
+.light-theme #typo_div {
+    transition: ease-in 0.5s;
+}
+
+.light-theme {
+    transition: ease-in 0.5s;
+}
+
+.light-theme #navLink {
+    transition: ease-in 0.5s;
+}
+
+.light-theme #orpheusText {
+    transition: ease-in 0.5s;
+}
+
+.light-theme #whiteBtn {
+    transition: ease-in 0.5s;
+}
+
+.light-theme #goldBtn {
+    transition: ease-in 0.5s;
+}
+
+.light-theme #caption {
+    transition: ease-in 0.5s;
 }

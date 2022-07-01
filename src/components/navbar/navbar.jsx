@@ -1,30 +1,35 @@
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import '../navbar/navbar.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import lua from '../../assets/img/lua.svg';
-import typo from '../../assets/img/Typo.png';
-import logo from '../../assets/img/logo.svg';
+import moon from '../../assets/img/lua.svg';
+import logo from '../../assets/img/LogoLightMode.png';
+import { ThemeContext } from '../../theme';
 
-export default class menu extends Component {
-    render () {
+function Menu() {
+        const { toggleTheme } = useContext(ThemeContext);
+
         return (
-            <Navbar collapseOnSelect expand="lg" id="light">
+            <Navbar collapseOnSelect expand="lg">
             <Container className="container">
                 <div className="d-flex align-items-center">
-                    <img className="me-3 logo" src={logo} alt="typo" />
-                    <img src={typo} alt="typo" />
+                    <div id="typo_div" className="mb-2">
+                        <img src={logo} alt="logo" id="logo_icon"/>
+                    </div>
                 </div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ms-auto">
+                <Nav className="ms-auto" id="nav_item">
                     <Nav.Link id="navLink" className="me-4">Works</Nav.Link>
                     <Nav.Link id="navLink" className="me-4">Contribution</Nav.Link>
                     <Nav.Link id="navLink" className="me-4">Community</Nav.Link>
                     <Nav.Link id="navLink" className="me-3">Get in Touch</Nav.Link>
-                    <div className="d-flex align-items-center ms-3">
-                        <img src={lua} alt="lua" />
+                    <div className="d-flex align-items-center ms-3" id="theme_icon">
+                        <img src={moon} alt="Moon Icon"
+                        onClick={() => toggleTheme()}
+                        id="moon_icon"
+                        />
                     </div>
                 </Nav>
               </Navbar.Collapse>
@@ -32,5 +37,6 @@ export default class menu extends Component {
           </Navbar>
         );
     }
-}
+
+    export default Menu;
 
