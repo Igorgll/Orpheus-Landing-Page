@@ -14,3 +14,6 @@
   ![Imgur](https://i.imgur.com/22SRvoI.png)
 
   ![Imgur](https://i.imgur.com/u1g4tCc.png)
+  
+  ### Dark Mode
+  ![Imgur](https://i.imgur.com/K5i202h.png)
