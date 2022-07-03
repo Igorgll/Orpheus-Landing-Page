@@ -50,6 +50,10 @@ body {
     color: #0A0D11;
 }
 
+.dark-theme #view_more {
+    color: #FFFFFF;
+}
+
 .dark-theme #caption {
     transition: ease-in 0.5s;
     background: linear-gradient(90deg, rgba(9, 11, 14, 0.81) 19.79%, rgba(9, 11, 14, 0) 97.4%);
@@ -143,5 +147,5 @@ body {
 
 /*RESPONSIVIDADE*/
 @media(max-width: 768px) {
-    
+
 }
