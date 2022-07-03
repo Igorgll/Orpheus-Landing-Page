@@ -3,12 +3,14 @@ import '../navbar/navbar.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import moon from '../../assets/img/lua.svg';
 import logo from '../../assets/img/LogoLightMode.png';
-import { ThemeContext } from '../../theme';
+import { ThemeContext, ThemeProvider } from '../../theme';
+import ReactSwitch from 'react-switch';
 
 function Menu() {
-        const { toggleTheme } = useContext(ThemeContext);
+        const { toggleTheme } = useContext(ThemeContext);        
+    
+        const theme = localStorage.getItem("theme");
 
         return (
             <Navbar collapseOnSelect expand="lg">
@@ -26,10 +28,7 @@ function Menu() {
                     <Nav.Link id="navLink" className="me-4">Community</Nav.Link>
                     <Nav.Link id="navLink" className="me-3">Get in Touch</Nav.Link>
                     <div className="d-flex align-items-center ms-3" id="theme_icon">
-                        <img src={moon} alt="Moon Icon"
-                        onClick={() => toggleTheme()}
-                        id="moon_icon"
-                        />
+                        <ReactSwitch onChange={() => toggleTheme()} checked={theme === 'light-theme'}/>
                     </div>
                 </Nav>
               </Navbar.Collapse>

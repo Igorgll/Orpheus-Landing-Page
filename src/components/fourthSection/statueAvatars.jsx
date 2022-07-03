@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Container from "react-bootstrap/Container";
 import "./statueAvatars.css";
-import ArrowDown from '../../assets/img/ArrowDown.svg';
 import Avatars from '../../assets/img/avatars.png';
 
 export default class statueAvatars extends Component {
@@ -16,7 +15,6 @@ export default class statueAvatars extends Component {
 
                         <div className="d-flex justify-content-center align-items-center mt-4">
                             <button id="gold_button">
-                                <img src={ArrowDown} alt="Download Icon" className="me-2 mb-1"/>
                                 Download
                             </button>
                         </div>

@@ -21,10 +21,7 @@ export default class statuePack extends Component {
                         <h2 className="text-center mt-4" id="row_subHeading">over <span id="span200">200</span> greek style sculputure</h2>
 
                         <div className="d-flex justify-content-center align-items-center mt-4">
-                            <button id="gold_button">
-                                    <img src={ArrowDown} alt="Download Icon" className="me-2 mb-1" id="arrow_down"/>
-                                    Download
-                            </button>
+                            <button id="gold_button">Download</button>
                         </div>
                     </div>
                 </div>

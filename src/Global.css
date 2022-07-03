@@ -82,13 +82,14 @@ body {
     color: #0A0D11;
 }
 
-/* .dark-theme #arrow_down {
+.dark-theme #arrow_down {
     visibility: hidden;
 }
 
-.dark-theme #arrow_icon {
-    background: url("./assets/img/ArrowDownBlack.svg") no-repeat;
-} */
+.dark-theme #arrow_down_black {
+    visibility: visible;
+    margin-right: 4rem;
+}
 
 .dark-theme #rowThirdSectionAvatars {
     background: linear-gradient(274.7deg, #0D1626 -0.81%, #07090C 98.64%);
@@ -138,4 +139,9 @@ body {
 
 .light-theme #caption {
     transition: ease-in 0.5s;
+}
+
+/*RESPONSIVIDADE*/
+@media(max-width: 768px) {
+    
 }
