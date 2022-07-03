@@ -7,7 +7,7 @@
   By: Raèf Orpheus and elina moghaddam
   
   ### Light Mode
-  ![Imgur](https://i.imgur.com/sM47bfJ.png)
+  ![Imgur](https://i.imgur.com/4EDJ5I2.png)
 
   ![Imgur](https://i.imgur.com/lJlFiXI.png)
 
@@ -17,3 +17,6 @@
   
   ### Dark Mode
   ![Imgur](https://i.imgur.com/K5i202h.png)
+  ![Imgur](https://i.imgur.com/X9TA4bF.png)
+  ![Imgur](https://i.imgur.com/p2aEz6B.png)
+  ![Imgur](https://i.imgur.com/VuJekly.png)
