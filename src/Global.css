@@ -144,52 +144,7 @@ body {
 }
 
 /*RESPONSIVIDADE*/
-@media (max-width: 650px) {
-    #statue_pic_div {
-        display: none;
-    }
-
-    #button__div {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 2rem;
-    }
-
-    #whiteBtn {
-        width: 250px !important;
-    }
-
-    #goldBtn {
-        width: 250px !important;
-        margin-top: 1rem;
-    }
-
-    #girlStatueBlack {
-        display: none;
-    }
-
-    #row_heading {
-        font-size: 30px !important;
-    }
-
-    #row_subHeading {
-        font-size: 27px !important;
-    }
-
-    #avatarsStatues {
-        display: none;
-    }
-
-    #row_headingAvatars {
-        font-size: 30px !important;
-    }
-
-    #row_subHeadingAvatars {
-        font-size: 27px !important;
-    }
-}
-
-@media (max-width: 720px) {
+@media only screen and (max-width: 595px) {    
     #statue_pic_div {
         display: none;
     }
@@ -198,43 +153,23 @@ body {
         width: 100%;
     }
 
-    #button__div {
-        margin-top: 2rem;
-        display: flex;
-        flex-direction: row;
+    #title {
+        font-size: 60px !important;
     }
 
-    #whiteBtn {
-        width: 300px !important;
+    #orpheus {
+        font-size: 69px !important;
     }
 
-    #goldBtn {
-        width: 300px !important;
-        margin-top: 1rem;
+    #orpheusText {
+         display: none;
     }
 
-    #girlStatueBlack {
-        display: none;
+    .nftH1 {
+        font-size: 28px !important;
     }
 
-    #row_heading {
-        font-size: 30px !important;
-    }
-
-    #row_subHeading {
-        font-size: 27px !important;
-    }
-
-    #avatarsStatues {
-        display: none;
-    }
-
-    #row_headingAvatars {
-        font-size: 30px !important;
-    }
-
-    #row_subHeadingAvatars {
-        font-size: 27px !important;
+    .nftH2 {
+        font-size: 12px !important;
     }
 }
-

@@ -9,7 +9,7 @@ export default class statueAvatars extends Component {
             <Container className="container-fluid mt-5 mb-5">
 
                 <div className="row-md-12 d-flex flex-row justify-content-center align-items-center" id="rowThirdSectionAvatars">
-                    <div className="col-md-6">
+                    <div className="col-md-6" id="greek_statue_div">
                         <h1 className="text-center" id="row_headingAvatars">Greek Statue Avatars</h1>
                         <h2 className="text-center mt-4" id="row_subHeadingAvatars">+500 Greek style <span id="span200">User Avatars</span></h2>
 
