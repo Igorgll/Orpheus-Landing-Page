@@ -183,6 +183,7 @@ body {
     #recent_view {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         margin-right: 3.5rem !important;
     }
 
@@ -195,12 +196,10 @@ body {
         flex-direction: row;
     }
 
-    #greek {
-        margin-right: 2rem;
-    }
-
     #greek_statue_div {
-        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #view_more {
@@ -212,21 +211,14 @@ body {
     }
 
     #gold_button {
-        width: 75% !important;
+        width: 100% !important;
     }
 
     #avatarsStatues {
         display: none;
     }
- 
-    #footer_row {
-        margin-right: 2rem;
-    }
 
     #footer_subheading {
         font-size: 90%;
     }
-
-    
-
 }
