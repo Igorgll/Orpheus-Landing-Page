@@ -28,7 +28,7 @@ function Menu() {
                     <Nav.Link id="navLink" className="me-4">Community</Nav.Link>
                     <Nav.Link id="navLink" className="me-3">Get in Touch</Nav.Link>
                     <div className="d-flex align-items-center ms-3" id="theme_icon">
-                        <ReactSwitch onChange={() => toggleTheme()} checked={theme === 'light-theme'}/>
+                        <ReactSwitch onChange={() => toggleTheme()} checked={theme === 'dark-theme'}/>
                     </div>
                 </Nav>
               </Navbar.Collapse>
