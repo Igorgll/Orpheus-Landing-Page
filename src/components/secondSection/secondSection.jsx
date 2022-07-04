@@ -32,7 +32,7 @@ export default class secondSection extends Component {
 
     return (
       <Container className="container-fluid">
-        <div className="d-flex justify-content-end me-4 mb-4">
+        <div className="d-flex justify-content-end me-4 mb-4" id="recent_view">
           <h1 className="nftH1 h2 lh-base">Recent Nft</h1>
           <div id="vl" className="ms-4 me-4"></div>
           <h2 className="nftH2 h5 lh-base pt-2" id="view_more">View More</h2>

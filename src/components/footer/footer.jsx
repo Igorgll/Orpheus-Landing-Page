@@ -12,7 +12,7 @@ export default class footer extends Component {
         return (
             <footer className="d-flex align-items-center" id="footer">
                 <Container className="container-fluid">
-                    <div className="row-md-12">
+                    <div className="row-md-12" id="footer_row">
                         <h1 className="text-center h2 lh-base" id="footer_heading">Let's Connect</h1>
                         <h2 className="text-center h5 lh-lg" id="footer_subheading">Get in touch for opportunities or just to say hi! 👋</h2>
                     

@@ -8,7 +8,7 @@ export default class statuePack extends Component {
   render() {
     return (
       <Container className="container-fluid">
-        <div className="d-flex justify-content-start mt-5 me-4 mb-4">
+        <div className="d-flex justify-content-start mt-5 me-4 mb-4" id="contribution_view">
           <h1 className="nftH1 h2 lh-base">Contribution</h1>
           <div id="vl" className="ms-4 me-4"></div>
           <h2 className="nftH2 h5 lh-base pt-2" id="view_more">
