@@ -13,7 +13,9 @@ function App() {
   const { theme } = useContext(ThemeContext)
   
   return(
+    
         <div className={`App ${theme}`}>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <Menu />
           <SectionOne />
           <SecondSection />
