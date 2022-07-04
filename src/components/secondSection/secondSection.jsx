@@ -33,9 +33,9 @@ export default class secondSection extends Component {
     return (
       <Container className="container-fluid">
         <div className="d-flex justify-content-end me-4 mb-4">
-          <h1 className="nftH1">Recent Nft</h1>
+          <h1 className="nftH1 h2 lh-base">Recent Nft</h1>
           <div id="vl" className="ms-4 me-4"></div>
-          <h2 className="nftH2" id="view_more">View More</h2>
+          <h2 className="nftH2 h5 lh-base pt-2" id="view_more">View More</h2>
         </div>
 
         <Carousel
@@ -99,9 +99,9 @@ export default class secondSection extends Component {
             </div>
           </div>
 
-          <div className="viewBtn d-flex justify-content-center align-items-center">
-            <button id="whiteBtn" className="shadow-sm">
-              View all{" "}
+          <div className="viewBtn h-100 d-flex justify-content-center align-items-center">
+            <button id="whiteBtn" className="shadow-sm w-25">
+              View all
               <img src={RightArrow} alt="Arrow" className="ms-2 mb-1" />
             </button>
           </div>

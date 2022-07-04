@@ -26,8 +26,8 @@ body {
 
 .dark-theme #statue_pic_div {
     background: url("./assets/img/Statue_Black.png") no-repeat;
+    margin-left: 6rem;
     margin-top: 6rem;
-    width: 60%;
 }
 
 .dark-theme #statue_pic {
@@ -141,35 +141,4 @@ body {
 
 .light-theme #caption {
     transition: ease-in 0.5s;
-}
-
-/*RESPONSIVIDADE*/
-@media only screen and (max-width: 595px) {    
-    #statue_pic_div {
-        display: none;
-    }
-
-    #media_col {
-        width: 100%;
-    }
-
-    #title {
-        font-size: 60px !important;
-    }
-
-    #orpheus {
-        font-size: 69px !important;
-    }
-
-    #orpheusText {
-         display: none;
-    }
-
-    .nftH1 {
-        font-size: 28px !important;
-    }
-
-    .nftH2 {
-        font-size: 12px !important;
-    }
 }
