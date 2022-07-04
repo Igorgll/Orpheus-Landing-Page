@@ -5,7 +5,6 @@ body {
 }
 
 /* DARK THEME */
-
 .dark-theme {
     transition: ease-in 0.5s;
     background: #050607;
@@ -116,7 +115,6 @@ body {
 }
 
 /* LIGHT THEME */
-
 .light-theme #typo_div {
     transition: ease-in 0.5s;
 }
@@ -146,6 +144,97 @@ body {
 }
 
 /*RESPONSIVIDADE*/
-@media(max-width: 768px) {
+@media (max-width: 650px) {
+    #statue_pic_div {
+        display: none;
+    }
 
+    #button__div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+    #whiteBtn {
+        width: 250px !important;
+    }
+
+    #goldBtn {
+        width: 250px !important;
+        margin-top: 1rem;
+    }
+
+    #girlStatueBlack {
+        display: none;
+    }
+
+    #row_heading {
+        font-size: 30px !important;
+    }
+
+    #row_subHeading {
+        font-size: 27px !important;
+    }
+
+    #avatarsStatues {
+        display: none;
+    }
+
+    #row_headingAvatars {
+        font-size: 30px !important;
+    }
+
+    #row_subHeadingAvatars {
+        font-size: 27px !important;
+    }
 }
+
+@media (max-width: 720px) {
+    #statue_pic_div {
+        display: none;
+    }
+
+    #media_col {
+        width: 100%;
+    }
+
+    #button__div {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #whiteBtn {
+        width: 300px !important;
+    }
+
+    #goldBtn {
+        width: 300px !important;
+        margin-top: 1rem;
+    }
+
+    #girlStatueBlack {
+        display: none;
+    }
+
+    #row_heading {
+        font-size: 30px !important;
+    }
+
+    #row_subHeading {
+        font-size: 27px !important;
+    }
+
+    #avatarsStatues {
+        display: none;
+    }
+
+    #row_headingAvatars {
+        font-size: 30px !important;
+    }
+
+    #row_subHeadingAvatars {
+        font-size: 27px !important;
+    }
+}
+

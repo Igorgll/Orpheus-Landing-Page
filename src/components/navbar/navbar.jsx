@@ -14,7 +14,7 @@ function Menu() {
 
         return (
             <Navbar collapseOnSelect expand="lg">
-            <Container className="container">
+            <Container className="container-fluid">
                 <div className="d-flex align-items-center">
                     <div id="typo_div" className="mb-2">
                         <img src={logo} alt="logo" id="logo_icon"/>

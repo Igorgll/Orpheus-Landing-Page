@@ -16,7 +16,7 @@ export default class statuePack extends Component {
 
                 <div className="row-md-12 d-flex flex-row justify-content-center align-items-center" id="rowThirdSection">
                     <div className="col-md-6" id="girlStatueBlack"><img src={girlStatue} alt="" className="img-fluid" id="girlStatue" /></div>
-                    <div className="col-md-6">
+                    <div className="col-md-6" id="greek">
                         <h1 className="text-center" id="row_heading">3d Greek Statue Pack</h1>
                         <h2 className="text-center mt-4" id="row_subHeading">over <span id="span200">200</span> greek style sculputure</h2>
 
